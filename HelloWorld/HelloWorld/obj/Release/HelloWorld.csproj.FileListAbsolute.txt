@@ -1,0 +1,16 @@
+/Users/v/Projects/HelloWorld/HelloWorld/bin/Release/HelloWorld.dll
+/Users/v/Projects/HelloWorld/HelloWorld/bin/Release/Xamarin.Forms.Core.dll
+/Users/v/Projects/HelloWorld/HelloWorld/bin/Release/Xamarin.Forms.Platform.dll
+/Users/v/Projects/HelloWorld/HelloWorld/bin/Release/Xamarin.Forms.Xaml.dll
+/Users/v/Projects/HelloWorld/HelloWorld/bin/Release/Xamarin.Forms.Core.pdb
+/Users/v/Projects/HelloWorld/HelloWorld/bin/Release/Xamarin.Forms.Core.dll.mdb
+/Users/v/Projects/HelloWorld/HelloWorld/bin/Release/Xamarin.Forms.Core.xml
+/Users/v/Projects/HelloWorld/HelloWorld/bin/Release/Xamarin.Forms.Xaml.pdb
+/Users/v/Projects/HelloWorld/HelloWorld/bin/Release/Xamarin.Forms.Xaml.dll.mdb
+/Users/v/Projects/HelloWorld/HelloWorld/bin/Release/Xamarin.Forms.Xaml.xml
+/Users/v/Projects/HelloWorld/HelloWorld/obj/Release/HelloWorld.csproj.CoreCompileInputs.cache
+/Users/v/Projects/HelloWorld/HelloWorld/obj/Release/HelloWorld.App.xaml.g.cs
+/Users/v/Projects/HelloWorld/HelloWorld/obj/Release/HelloWorld.HelloWorldPage.xaml.g.cs
+/Users/v/Projects/HelloWorld/HelloWorld/obj/Release/HelloWorld.GreetPage.xaml.g.cs
+/Users/v/Projects/HelloWorld/HelloWorld/obj/Release/HelloWorld.StackPage.xaml.g.cs
+/Users/v/Projects/HelloWorld/HelloWorld/obj/Release/HelloWorld.dll

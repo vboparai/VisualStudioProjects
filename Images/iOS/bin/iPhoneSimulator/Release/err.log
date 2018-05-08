@@ -1,0 +1,99 @@
+objc[2661]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x12bb5e4d0) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/AVConference (0x12b9dee38). One of the two will be used. Which one is undefined.
+2018-05-03 18:23:32.159 Images.iOS[2661:34973] 
+Unhandled Exception:
+Xamarin.Forms.Xaml.XamlParseException: Position 8:12. MarkupExtension not found for local:EmbeddedImage
+  at Xamarin.Forms.Xaml.ExpandMarkupsVisitor+MarkupExpansionParser.Parse (System.String match, System.String& remaining, System.IServiceProvider serviceProvider) [0x00100] in <a335b5c5add04702a18c38ae2c69aaab>:0 
+  at Xamarin.Forms.Xaml.ExpandMarkupsVisitor.ParseExpression (System.String& expression, System.Xml.IXmlNamespaceResolver nsResolver, System.Xml.IXmlLineInfo xmlLineInfo, Xamarin.Forms.Xaml.INode node, Xamarin.Forms.Xaml.INode parentNode) [0x0009f] in <a335b5c5add04702a18c38ae2c69aaab>:0 
+  at Xamarin.Forms.Xaml.ExpandMarkupsVisitor.Visit (Xamarin.Forms.Xaml.MarkupNode markupnode, Xamarin.Forms.Xaml.INode parentNode) [0x00040] in <a335b5c5add04702a18c38ae2c69aaab>:0 
+  at Xamarin.Forms.Xaml.MarkupNode.Accept (Xamarin.Forms.Xaml.IXamlNodeVisitor visitor, Xamarin.Forms.Xaml.INode parentNode) [0x00000] in <a335b5c5add04702a18c38ae2c69aaab>:0 
+  at Xamarin.Forms.Xaml.ElementNode.Accept (Xamarin.Forms.Xaml.IXamlNodeVisitor visitor, Xamarin.Forms.Xaml.INode parentNode) [0x00043] in <a335b5c5add04702a18c38ae2c69aaab>:0 
+  at Xamarin.Forms.Xaml.RootNode.Accept (Xamarin.Forms.Xaml.IXamlNodeVisitor visitor, Xamarin.Forms.Xaml.INode parentNode) [0x00078] in <a335b5c5add04702a18c38ae2c69aaab>:0 
+  at Xamarin.Forms.Xaml.XamlLoader.Visit (Xamarin.Forms.Xaml.RootNode rootnode, Xamarin.Forms.Xaml.HydrationContext visitorContext) [0x00035] in <a335b5c5add04702a18c38ae2c69aaab>:0 
+  at Xamarin.Forms.Xaml.XamlLoader.Load (System.Object view, System.String xaml) [0x0008f] in <a335b5c5add04702a18c38ae2c69aaab>:0 
+  at Xamarin.Forms.Xaml.XamlLoader.Load (System.Object view, System.Type callingType) [0x0002f] in <a335b5c5add04702a18c38ae2c69aaab>:0 
+  at Xamarin.Forms.Xaml.Extensions.LoadFromXaml[TXaml] (TXaml view, System.Type callingType) [0x00000] in <a335b5c5add04702a18c38ae2c69aaab>:0 
+  at Images.BackgroundImgPage.InitializeComponent () [0x00000] in <e0cfb1beceb24be09714e4393d2b70ed>:0 
+  at Images.BackgroundImgPage..ctor () [0x00006] in <e0cfb1beceb24be09714e4393d2b70ed>:0 
+  at Images.App..ctor () [0x0000c] in <e0cfb1beceb24be09714e4393d2b70ed>:0 
+  at Images.iOS.AppDelegate.FinishedLaunching (UIKit.UIApplication app, Foundation.NSDictionary options) [0x00005] in <e0cfb1beceb24be09714e4393d2b70ed>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) UIKit.UIApplication.UIApplicationMain(int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <0a1f753a89814f48b3664aa368375dde>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in <0a1f753a89814f48b3664aa368375dde>:0 
+  at Images.iOS.Application.Main (System.String[] args) [0x00000] in <e0cfb1beceb24be09714e4393d2b70ed>:0 
+2018-05-03 18:23:32.160 Images.iOS[2661:34973] Unhandled managed exception:
+Position 8:12. MarkupExtension not found for local:EmbeddedImage (Xamarin.Forms.Xaml.XamlParseException)
+  at Xamarin.Forms.Xaml.ExpandMarkupsVisitor+MarkupExpansionParser.Parse (System.String match, System.String& remaining, System.IServiceProvider serviceProvider) [0x00100] in <a335b5c5add04702a18c38ae2c69aaab>:0 
+  at Xamarin.Forms.Xaml.ExpandMarkupsVisitor.ParseExpression (System.String& expression, System.Xml.IXmlNamespaceResolver nsResolver, System.Xml.IXmlLineInfo xmlLineInfo, Xamarin.Forms.Xaml.INode node, Xamarin.Forms.Xaml.INode parentNode) [0x0009f] in <a335b5c5add04702a18c38ae2c69aaab>:0 
+  at Xamarin.Forms.Xaml.ExpandMarkupsVisitor.Visit (Xamarin.Forms.Xaml.MarkupNode markupnode, Xamarin.Forms.Xaml.INode parentNode) [0x00040] in <a335b5c5add04702a18c38ae2c69aaab>:0 
+  at Xamarin.Forms.Xaml.MarkupNode.Accept (Xamarin.Forms.Xaml.IXamlNodeVisitor visitor, Xamarin.Forms.Xaml.INode parentNode) [0x00000] in <a335b5c5add04702a18c38ae2c69aaab>:0 
+  at Xamarin.Forms.Xaml.ElementNode.Accept (Xamarin.Forms.Xaml.IXamlNodeVisitor visitor, Xamarin.Forms.Xaml.INode parentNode) [0x00043] in <a335b5c5add04702a18c38ae2c69aaab>:0 
+  at Xamarin.Forms.Xaml.RootNode.Accept (Xamarin.Forms.Xaml.IXamlNodeVisitor visitor, Xamarin.Forms.Xaml.INode parentNode) [0x00078] in <a335b5c5add04702a18c38ae2c69aaab>:0 
+  at Xamarin.Forms.Xaml.XamlLoader.Visit (Xamarin.Forms.Xaml.RootNode rootnode, Xamarin.Forms.Xaml.HydrationContext visitorContext) [0x00035] in <a335b5c5add04702a18c38ae2c69aaab>:0 
+  at Xamarin.Forms.Xaml.XamlLoader.Load (System.Object view, System.String xaml) [0x0008f] in <a335b5c5add04702a18c38ae2c69aaab>:0 
+  at Xamarin.Forms.Xaml.XamlLoader.Load (System.Object view, System.Type callingType) [0x0002f] in <a335b5c5add04702a18c38ae2c69aaab>:0 
+  at Xamarin.Forms.Xaml.Extensions.LoadFromXaml[TXaml] (TXaml view, System.Type callingType) [0x00000] in <a335b5c5add04702a18c38ae2c69aaab>:0 
+  at Images.BackgroundImgPage.InitializeComponent () [0x00000] in <e0cfb1beceb24be09714e4393d2b70ed>:0 
+  at Images.BackgroundImgPage..ctor () [0x00006] in <e0cfb1beceb24be09714e4393d2b70ed>:0 
+  at Images.App..ctor () [0x0000c] in <e0cfb1beceb24be09714e4393d2b70ed>:0 
+  at Images.iOS.AppDelegate.FinishedLaunching (UIKit.UIApplication app, Foundation.NSDictionary options) [0x00005] in <e0cfb1beceb24be09714e4393d2b70ed>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) UIKit.UIApplication.UIApplicationMain(int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <0a1f753a89814f48b3664aa368375dde>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in <0a1f753a89814f48b3664aa368375dde>:0 
+  at Images.iOS.Application.Main (System.String[] args) [0x00000] in <e0cfb1beceb24be09714e4393d2b70ed>:0 
+2018-05-03 18:23:32.162 Images.iOS[2661:34973] critical: Stacktrace:
+
+2018-05-03 18:23:32.162 Images.iOS[2661:34973] critical: 
+Native stacktrace:
+
+2018-05-03 18:23:32.229 Images.iOS[2661:34973] critical: 	0   Images.iOS                          0x0000000103b64e54 mono_handle_native_crash + 244
+2018-05-03 18:23:32.229 Images.iOS[2661:34973] critical: 	1   libsystem_platform.dylib            0x000000011490cf5a _sigtramp + 26
+2018-05-03 18:23:32.230 Images.iOS[2661:34973] critical: 	2   ???                                 0x00000001040e16d8 0x0 + 4362999512
+2018-05-03 18:23:32.230 Images.iOS[2661:34973] critical: 	3   libsystem_c.dylib                   0x0000000114542c97 abort + 127
+2018-05-03 18:23:32.230 Images.iOS[2661:34973] critical: 	4   Images.iOS                          0x0000000103d0f912 xamarin_unhandled_exception_handler + 34
+2018-05-03 18:23:32.230 Images.iOS[2661:34973] critical: 	5   Images.iOS                          0x0000000103bcb714 mono_invoke_unhandled_exception_hook + 148
+2018-05-03 18:23:32.230 Images.iOS[2661:34973] critical: 	6   Images.iOS                          0x0000000103b64c13 mono_handle_exception_internal + 5955
+2018-05-03 18:23:32.230 Images.iOS[2661:34973] critical: 	7   Images.iOS                          0x0000000103b634c9 mono_handle_exception + 25
+2018-05-03 18:23:32.230 Images.iOS[2661:34973] critical: 	8   Images.iOS                          0x0000000103ae610f mono_amd64_throw_exception + 143
+2018-05-03 18:23:32.230 Images.iOS[2661:34973] critical: 	9   ???                                 0x000000012d011827 0x0 + 5050013735
+2018-05-03 18:23:32.231 Images.iOS[2661:34973] critical: 	10  Images.iOS                          0x0000000103d150ab xamarin_invoke_trampoline + 3691
+2018-05-03 18:23:32.231 Images.iOS[2661:34973] critical: 	11  Images.iOS                          0x0000000103d16c8e xamarin_arch_trampoline + 78
+2018-05-03 18:23:32.231 Images.iOS[2661:34973] critical: 	12  Images.iOS                          0x0000000103d17812 xamarin_x86_64_common_trampoline + 110
+2018-05-03 18:23:32.231 Images.iOS[2661:34973] critical: 	13  UIKit                               0x0000000104bed75b -[UIApplication _handleDelegateCallbacksWithOptions:isSuspended:restoreState:] + 278
+2018-05-03 18:23:32.231 Images.iOS[2661:34973] critical: 	14  UIKit                               0x0000000104bef1d2 -[UIApplication _callInitializationDelegatesForMainScene:transitionContext:] + 4123
+2018-05-03 18:23:32.232 Images.iOS[2661:34973] critical: 	15  UIKit                               0x0000000104bf462b -[UIApplication _runWithMainScene:transitionContext:completion:] + 1677
+2018-05-03 18:23:32.232 Images.iOS[2661:34973] critical: 	16  UIKit                               0x0000000104fb6e4a __111-[__UICanvasLifecycleMonitor_Compatability _scheduleFirstCommitForScene:transition:firstActivation:completion:]_block_invoke + 866
+2018-05-03 18:23:32.232 Images.iOS[2661:34973] critical: 	17  UIKit                               0x0000000105389909 +[_UICanvas _enqueuePostSettingUpdateTransactionBlock:] + 153
+2018-05-03 18:23:32.233 Images.iOS[2661:34973] critical: 	18  UIKit                               0x0000000104fb6a86 -[__UICanvasLifecycleMonitor_Compatability _scheduleFirstCommitForScene:transition:firstActivation:completion:] + 236
+2018-05-03 18:23:32.233 Images.iOS[2661:34973] critical: 	19  UIKit                               0x0000000104fb72a7 -[__UICanvasLifecycleMonitor_Compatability activateEventsOnly:withContext:completion:] + 675
+2018-05-03 18:23:32.233 Images.iOS[2661:34973] critical: 	20  UIKit                               0x00000001059284d4 __82-[_UIApplicationCanvas _transitionLifecycleStateWithTransitionContext:completion:]_block_invoke + 299
+2018-05-03 18:23:32.233 Images.iOS[2661:34973] critical: 	21  UIKit                               0x000000010592836e -[_UIApplicationCanvas _transitionLifecycleStateWithTransitionContext:completion:] + 433
+2018-05-03 18:23:32.233 Images.iOS[2661:34973] critical: 	22  UIKit                               0x000000010560c62d __125-[_UICanvasLifecycleSettingsDiffAction performActionsForCanvas:withUpdatedScene:settingsDiff:fromSettings:transitionContext:]_block_invoke + 221
+2018-05-03 18:23:32.233 Images.iOS[2661:34973] critical: 	23  UIKit                               0x0000000105807387 _performActionsWithDelayForTransitionContext + 100
+2018-05-03 18:23:32.234 Images.iOS[2661:34973] critical: 	24  UIKit                               0x000000010560c4f7 -[_UICanvasLifecycleSettingsDiffAction performActionsForCanvas:withUpdatedScene:settingsDiff:fromSettings:transitionContext:] + 223
+2018-05-03 18:23:32.234 Images.iOS[2661:34973] critical: 	25  UIKit                               0x0000000105388fb0 -[_UICanvas scene:didUpdateWithDiff:transitionContext:completion:] + 392
+2018-05-03 18:23:32.234 Images.iOS[2661:34973] critical: 	26  UIKit                               0x0000000104bf2f0c -[UIApplication workspace:didCreateScene:withTransitionContext:completion:] + 515
+2018-05-03 18:23:32.234 Images.iOS[2661:34973] critical: 	27  UIKit                               0x00000001051c5a97 -[UIApplicationSceneClientAgent scene:didInitializeWithEvent:completion:] + 361
+2018-05-03 18:23:32.234 Images.iOS[2661:34973] critical: 	28  FrontBoardServices                  0x000000011829c2f3 -[FBSSceneImpl _didCreateWithTransitionContext:completion:] + 331
+2018-05-03 18:23:32.234 Images.iOS[2661:34973] critical: 	29  FrontBoardServices                  0x00000001182a4cfa __56-[FBSWorkspace client:handleCreateScene:withCompletion:]_block_invoke_2 + 225
+2018-05-03 18:23:32.234 Images.iOS[2661:34973] critical: 	30  libdispatch.dylib                   0x0000000114402779 _dispatch_client_callout + 8
+2018-05-03 18:23:32.234 Images.iOS[2661:34973] critical: 	31  libdispatch.dylib                   0x0000000114407931 _dispatch_block_invoke_direct + 317
+2018-05-03 18:23:32.234 Images.iOS[2661:34973] critical: 	32  FrontBoardServices                  0x00000001182d0470 __FBSSERIALQUEUE_IS_CALLING_OUT_TO_A_BLOCK__ + 24
+2018-05-03 18:23:32.235 Images.iOS[2661:34973] critical: 	33  FrontBoardServices                  0x00000001182d012e -[FBSSerialQueue _performNext] + 439
+2018-05-03 18:23:32.235 Images.iOS[2661:34973] critical: 	34  FrontBoardServices                  0x00000001182d068e -[FBSSerialQueue _performNextFromRunLoopSource] + 45
+2018-05-03 18:23:32.236 Images.iOS[2661:34973] critical: 	35  CoreFoundation                      0x0000000112760bb1 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 17
+2018-05-03 18:23:32.236 Images.iOS[2661:34973] critical: 	36  CoreFoundation                      0x00000001127454af __CFRunLoopDoSources0 + 271
+2018-05-03 18:23:32.236 Images.iOS[2661:34973] critical: 	37  CoreFoundation                      0x0000000112744a6f __CFRunLoopRun + 1263
+2018-05-03 18:23:32.236 Images.iOS[2661:34973] critical: 	38  CoreFoundation                      0x000000011274430b CFRunLoopRunSpecific + 635
+2018-05-03 18:23:32.237 Images.iOS[2661:34973] critical: 	39  GraphicsServices                    0x0000000115c3ea73 GSEventRunModal + 62
+2018-05-03 18:23:32.237 Images.iOS[2661:34973] critical: 	40  UIKit                               0x0000000104bf60b7 UIApplicationMain + 159
+2018-05-03 18:23:32.238 Images.iOS[2661:34973] critical: 	41  ???                                 0x000000012d0f62b3 0x0 + 5050950323
+2018-05-03 18:23:32.238 Images.iOS[2661:34973] critical: 	42  ???                                 0x000000012d0f6113 0x0 + 5050949907
+2018-05-03 18:23:32.238 Images.iOS[2661:34973] critical: 
+=================================================================
+Got a SIGABRT while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+

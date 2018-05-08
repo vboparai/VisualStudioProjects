@@ -1,0 +1,7 @@
+/Users/v/Projects/Lists/Lists.iOS/obj/iPhoneSimulator/Release/ibtool/_BundleResourceWithLogicalName.items
+/Users/v/Projects/Lists/Lists.iOS/obj/iPhoneSimulator/Release/actool/_PartialAppManifest.items
+/Users/v/Projects/Lists/Lists.iOS/obj/iPhoneSimulator/Release/actool/_BundleResourceWithLogicalName.items
+/Users/v/Projects/Lists/Lists.iOS/obj/iPhoneSimulator/Release/coremlc/_PartialAppManifest.items
+/Users/v/Projects/Lists/Lists.iOS/obj/iPhoneSimulator/Release/coremlc/_BundleResourceWithLogicalName.items
+/Users/v/Projects/Lists/Lists.iOS/obj/iPhoneSimulator/Release/optimized/
+/Users/v/Projects/Lists/Lists.iOS/obj/iPhoneSimulator/Release/Lists.iOS.csproj.CoreCompileInputs.cache

@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{1F556026-376E-42EC-84A0-78989E205CC2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Images/ImagesPage.xaml.cs">
+    <Files>
+      <File FileName="Images/ImagesPage.xaml.cs" Line="4" Column="17" />
+      <File FileName="Images/ImagesPage.xaml" Line="21" Column="4" />
+      <File FileName="Images/BackgroundImgPage.xaml" Line="12" Column="1" />
+      <File FileName="Images/BackgroundImgPage.xaml.cs" Line="14" Column="54" />
+      <File FileName="Images/MarkupExtensions/EmbeddedImage.cs" Line="7" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Images.Droid FirstBuild="True" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Images FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Images.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BE53D1E3-0B7E-4B22-821C-128DF6A6F7C4">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.Images.iOS>
+</Properties>

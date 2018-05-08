@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{80F84389-738E-4713-8FA4-0677AC6460DE}|Default">
+  <MonoDevelop.Ide.ItemProperties.HelloWorld.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld/StackPage.xaml.cs">
+    <Files>
+      <File FileName="HelloWorld/GreetPage.xaml" Line="33" Column="2" />
+      <File FileName="HelloWorld/GreetPage.xaml.cs" Line="22" Column="25" />
+      <File FileName="HelloWorld/obj/Debug/HelloWorld.GreetPage.xaml.g.cs" Line="22" Column="1" />
+      <File FileName="HelloWorld/App.xaml.cs" Line="11" Column="37" />
+      <File FileName="HelloWorld/StackPage.xaml" Line="6" Column="41" />
+      <File FileName="HelloWorld/StackPage.xaml.cs" Line="8" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.HelloWorld.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BE53D1E3-0B7E-4B22-821C-128DF6A6F7C4">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.HelloWorld.iOS>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

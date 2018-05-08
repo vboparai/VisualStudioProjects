@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookLogin", "FacebookLogin\FacebookLogin.csproj", "{8EA71E14-EB35-4434-8847-287C589E59CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EA71E14-EB35-4434-8847-287C589E59CC}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{8EA71E14-EB35-4434-8847-287C589E59CC}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{8EA71E14-EB35-4434-8847-287C589E59CC}.Release|iPhone.ActiveCfg = Release|iPhone
+		{8EA71E14-EB35-4434-8847-287C589E59CC}.Release|iPhone.Build.0 = Release|iPhone
+		{8EA71E14-EB35-4434-8847-287C589E59CC}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{8EA71E14-EB35-4434-8847-287C589E59CC}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{8EA71E14-EB35-4434-8847-287C589E59CC}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{8EA71E14-EB35-4434-8847-287C589E59CC}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal

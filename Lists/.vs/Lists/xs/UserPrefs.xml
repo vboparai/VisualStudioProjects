@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{1CB5334B-9272-49B1-A86F-AB6E324CE56C}|Default">
+  <MonoDevelop.Ide.ItemProperties.Lists.Android PreferredExecutionTarget="Android.Android_Accelerated_Nougat" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lists/GroupItemsPage.xaml">
+    <Files>
+      <File FileName="Lists/GroupItemsPage.xaml.cs" Line="13" Column="28" />
+      <File FileName="Lists/GroupItemsPage.xaml" Line="6" Column="39" />
+      <File FileName="Lists.iOS/AppDelegate.cs" Line="26" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Lists.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BE53D1E3-0B7E-4B22-821C-128DF6A6F7C4" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Lists FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>

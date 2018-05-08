@@ -1,0 +1,93 @@
+objc[1282]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x13432f4d0) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/AVConference (0x1341afe38). One of the two will be used. Which one is undefined.
+2018-05-02 21:05:06.710 HelloWorld.iOS[1282:18781] 
+Unhandled Exception:
+Xamarin.Forms.Xaml.XamlParseException: Position 7:10. Type OnPlatform not found in xmlns http://xamarin.com/schemas/2014/forms
+  at Xamarin.Forms.Xaml.CreateValuesVisitor.Visit (Xamarin.Forms.Xaml.ElementNode node, Xamarin.Forms.Xaml.INode parentNode) [0x00040] in <b7c0fce1f27b492d853c8b3bfb381eb3>:0 
+  at Xamarin.Forms.Xaml.ElementNode.Accept (Xamarin.Forms.Xaml.IXamlNodeVisitor visitor, Xamarin.Forms.Xaml.INode parentNode) [0x000ab] in <b7c0fce1f27b492d853c8b3bfb381eb3>:0 
+  at Xamarin.Forms.Xaml.RootNode.Accept (Xamarin.Forms.Xaml.IXamlNodeVisitor visitor, Xamarin.Forms.Xaml.INode parentNode) [0x00043] in <b7c0fce1f27b492d853c8b3bfb381eb3>:0 
+  at Xamarin.Forms.Xaml.XamlLoader.Visit (Xamarin.Forms.Xaml.RootNode rootnode, Xamarin.Forms.Xaml.HydrationContext visitorContext) [0x0005b] in <b7c0fce1f27b492d853c8b3bfb381eb3>:0 
+  at Xamarin.Forms.Xaml.XamlLoader.Load (System.Object view, System.String xaml) [0x0008f] in <b7c0fce1f27b492d853c8b3bfb381eb3>:0 
+  at Xamarin.Forms.Xaml.XamlLoader.Load (System.Object view, System.Type callingType) [0x0002f] in <b7c0fce1f27b492d853c8b3bfb381eb3>:0 
+  at Xamarin.Forms.Xaml.Extensions.LoadFromXaml[TXaml] (TXaml view, System.Type callingType) [0x00000] in <b7c0fce1f27b492d853c8b3bfb381eb3>:0 
+  at HelloWorld.GreetPage.InitializeComponent () [0x00000] in <59f56a2e538b4ba0b3fd436cc9459c06>:0 
+  at HelloWorld.GreetPage..ctor () [0x00006] in <59f56a2e538b4ba0b3fd436cc9459c06>:0 
+  at HelloWorld.App..ctor () [0x0000c] in <59f56a2e538b4ba0b3fd436cc9459c06>:0 
+  at HelloWorld.iOS.AppDelegate.FinishedLaunching (UIKit.UIApplication app, Foundation.NSDictionary options) [0x00005] in <3e8829f64f2e46529e5b50cefb71e513>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) UIKit.UIApplication.UIApplicationMain(int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <0a1f753a89814f48b3664aa368375dde>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in <0a1f753a89814f48b3664aa368375dde>:0 
+  at HelloWorld.iOS.Application.Main (System.String[] args) [0x00000] in <3e8829f64f2e46529e5b50cefb71e513>:0 
+2018-05-02 21:05:06.711 HelloWorld.iOS[1282:18781] Unhandled managed exception:
+Position 7:10. Type OnPlatform not found in xmlns http://xamarin.com/schemas/2014/forms (Xamarin.Forms.Xaml.XamlParseException)
+  at Xamarin.Forms.Xaml.CreateValuesVisitor.Visit (Xamarin.Forms.Xaml.ElementNode node, Xamarin.Forms.Xaml.INode parentNode) [0x00040] in <b7c0fce1f27b492d853c8b3bfb381eb3>:0 
+  at Xamarin.Forms.Xaml.ElementNode.Accept (Xamarin.Forms.Xaml.IXamlNodeVisitor visitor, Xamarin.Forms.Xaml.INode parentNode) [0x000ab] in <b7c0fce1f27b492d853c8b3bfb381eb3>:0 
+  at Xamarin.Forms.Xaml.RootNode.Accept (Xamarin.Forms.Xaml.IXamlNodeVisitor visitor, Xamarin.Forms.Xaml.INode parentNode) [0x00043] in <b7c0fce1f27b492d853c8b3bfb381eb3>:0 
+  at Xamarin.Forms.Xaml.XamlLoader.Visit (Xamarin.Forms.Xaml.RootNode rootnode, Xamarin.Forms.Xaml.HydrationContext visitorContext) [0x0005b] in <b7c0fce1f27b492d853c8b3bfb381eb3>:0 
+  at Xamarin.Forms.Xaml.XamlLoader.Load (System.Object view, System.String xaml) [0x0008f] in <b7c0fce1f27b492d853c8b3bfb381eb3>:0 
+  at Xamarin.Forms.Xaml.XamlLoader.Load (System.Object view, System.Type callingType) [0x0002f] in <b7c0fce1f27b492d853c8b3bfb381eb3>:0 
+  at Xamarin.Forms.Xaml.Extensions.LoadFromXaml[TXaml] (TXaml view, System.Type callingType) [0x00000] in <b7c0fce1f27b492d853c8b3bfb381eb3>:0 
+  at HelloWorld.GreetPage.InitializeComponent () [0x00000] in <59f56a2e538b4ba0b3fd436cc9459c06>:0 
+  at HelloWorld.GreetPage..ctor () [0x00006] in <59f56a2e538b4ba0b3fd436cc9459c06>:0 
+  at HelloWorld.App..ctor () [0x0000c] in <59f56a2e538b4ba0b3fd436cc9459c06>:0 
+  at HelloWorld.iOS.AppDelegate.FinishedLaunching (UIKit.UIApplication app, Foundation.NSDictionary options) [0x00005] in <3e8829f64f2e46529e5b50cefb71e513>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) UIKit.UIApplication.UIApplicationMain(int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <0a1f753a89814f48b3664aa368375dde>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in <0a1f753a89814f48b3664aa368375dde>:0 
+  at HelloWorld.iOS.Application.Main (System.String[] args) [0x00000] in <3e8829f64f2e46529e5b50cefb71e513>:0 
+2018-05-02 21:05:06.712 HelloWorld.iOS[1282:18781] critical: Stacktrace:
+
+2018-05-02 21:05:06.712 HelloWorld.iOS[1282:18781] critical: 
+Native stacktrace:
+
+2018-05-02 21:05:06.794 HelloWorld.iOS[1282:18781] critical: 	0   HelloWorld.iOS                      0x000000010c333e54 mono_handle_native_crash + 244
+2018-05-02 21:05:06.794 HelloWorld.iOS[1282:18781] critical: 	1   libsystem_platform.dylib            0x000000011d0ddf5a _sigtramp + 26
+2018-05-02 21:05:06.794 HelloWorld.iOS[1282:18781] critical: 	2   libsystem_pthread.dylib             0x000000011d0fc30b _pthread_keys + 9723
+2018-05-02 21:05:06.794 HelloWorld.iOS[1282:18781] critical: 	3   libsystem_c.dylib                   0x000000011cd13c97 abort + 127
+2018-05-02 21:05:06.795 HelloWorld.iOS[1282:18781] critical: 	4   HelloWorld.iOS                      0x000000010c4de912 xamarin_unhandled_exception_handler + 34
+2018-05-02 21:05:06.795 HelloWorld.iOS[1282:18781] critical: 	5   HelloWorld.iOS                      0x000000010c39a714 mono_invoke_unhandled_exception_hook + 148
+2018-05-02 21:05:06.795 HelloWorld.iOS[1282:18781] critical: 	6   HelloWorld.iOS                      0x000000010c333c13 mono_handle_exception_internal + 5955
+2018-05-02 21:05:06.795 HelloWorld.iOS[1282:18781] critical: 	7   HelloWorld.iOS                      0x000000010c3324c9 mono_handle_exception + 25
+2018-05-02 21:05:06.795 HelloWorld.iOS[1282:18781] critical: 	8   HelloWorld.iOS                      0x000000010c2b510f mono_amd64_throw_exception + 143
+2018-05-02 21:05:06.795 HelloWorld.iOS[1282:18781] critical: 	9   ???                                 0x00000001357e0827 0x0 + 5192419367
+2018-05-02 21:05:06.796 HelloWorld.iOS[1282:18781] critical: 	10  HelloWorld.iOS                      0x000000010c4e40ab xamarin_invoke_trampoline + 3691
+2018-05-02 21:05:06.796 HelloWorld.iOS[1282:18781] critical: 	11  HelloWorld.iOS                      0x000000010c4e5c8e xamarin_arch_trampoline + 78
+2018-05-02 21:05:06.797 HelloWorld.iOS[1282:18781] critical: 	12  HelloWorld.iOS                      0x000000010c4e6812 xamarin_x86_64_common_trampoline + 110
+2018-05-02 21:05:06.798 HelloWorld.iOS[1282:18781] critical: 	13  UIKit                               0x000000010d32375b -[UIApplication _handleDelegateCallbacksWithOptions:isSuspended:restoreState:] + 278
+2018-05-02 21:05:06.798 HelloWorld.iOS[1282:18781] critical: 	14  UIKit                               0x000000010d3251d2 -[UIApplication _callInitializationDelegatesForMainScene:transitionContext:] + 4123
+2018-05-02 21:05:06.798 HelloWorld.iOS[1282:18781] critical: 	15  UIKit                               0x000000010d32a62b -[UIApplication _runWithMainScene:transitionContext:completion:] + 1677
+2018-05-02 21:05:06.798 HelloWorld.iOS[1282:18781] critical: 	16  UIKit                               0x000000010d6ece4a __111-[__UICanvasLifecycleMonitor_Compatability _scheduleFirstCommitForScene:transition:firstActivation:completion:]_block_invoke + 866
+2018-05-02 21:05:06.798 HelloWorld.iOS[1282:18781] critical: 	17  UIKit                               0x000000010dabf909 +[_UICanvas _enqueuePostSettingUpdateTransactionBlock:] + 153
+2018-05-02 21:05:06.798 HelloWorld.iOS[1282:18781] critical: 	18  UIKit                               0x000000010d6eca86 -[__UICanvasLifecycleMonitor_Compatability _scheduleFirstCommitForScene:transition:firstActivation:completion:] + 236
+2018-05-02 21:05:06.798 HelloWorld.iOS[1282:18781] critical: 	19  UIKit                               0x000000010d6ed2a7 -[__UICanvasLifecycleMonitor_Compatability activateEventsOnly:withContext:completion:] + 675
+2018-05-02 21:05:06.798 HelloWorld.iOS[1282:18781] critical: 	20  UIKit                               0x000000010e05e4d4 __82-[_UIApplicationCanvas _transitionLifecycleStateWithTransitionContext:completion:]_block_invoke + 299
+2018-05-02 21:05:06.799 HelloWorld.iOS[1282:18781] critical: 	21  UIKit                               0x000000010e05e36e -[_UIApplicationCanvas _transitionLifecycleStateWithTransitionContext:completion:] + 433
+2018-05-02 21:05:06.800 HelloWorld.iOS[1282:18781] critical: 	22  UIKit                               0x000000010dd4262d __125-[_UICanvasLifecycleSettingsDiffAction performActionsForCanvas:withUpdatedScene:settingsDiff:fromSettings:transitionContext:]_block_invoke + 221
+2018-05-02 21:05:06.800 HelloWorld.iOS[1282:18781] critical: 	23  UIKit                               0x000000010df3d387 _performActionsWithDelayForTransitionContext + 100
+2018-05-02 21:05:06.800 HelloWorld.iOS[1282:18781] critical: 	24  UIKit                               0x000000010dd424f7 -[_UICanvasLifecycleSettingsDiffAction performActionsForCanvas:withUpdatedScene:settingsDiff:fromSettings:transitionContext:] + 223
+2018-05-02 21:05:06.800 HelloWorld.iOS[1282:18781] critical: 	25  UIKit                               0x000000010dabefb0 -[_UICanvas scene:didUpdateWithDiff:transitionContext:completion:] + 392
+2018-05-02 21:05:06.801 HelloWorld.iOS[1282:18781] critical: 	26  UIKit                               0x000000010d328f0c -[UIApplication workspace:didCreateScene:withTransitionContext:completion:] + 515
+2018-05-02 21:05:06.801 HelloWorld.iOS[1282:18781] critical: 	27  UIKit                               0x000000010d8fba97 -[UIApplicationSceneClientAgent scene:didInitializeWithEvent:completion:] + 361
+2018-05-02 21:05:06.801 HelloWorld.iOS[1282:18781] critical: 	28  FrontBoardServices                  0x0000000120a6d2f3 -[FBSSceneImpl _didCreateWithTransitionContext:completion:] + 331
+2018-05-02 21:05:06.801 HelloWorld.iOS[1282:18781] critical: 	29  FrontBoardServices                  0x0000000120a75cfa __56-[FBSWorkspace client:handleCreateScene:withCompletion:]_block_invoke_2 + 225
+2018-05-02 21:05:06.801 HelloWorld.iOS[1282:18781] critical: 	30  libdispatch.dylib                   0x000000011cbcc779 _dispatch_client_callout + 8
+2018-05-02 21:05:06.801 HelloWorld.iOS[1282:18781] critical: 	31  libdispatch.dylib                   0x000000011cbd1931 _dispatch_block_invoke_direct + 317
+2018-05-02 21:05:06.801 HelloWorld.iOS[1282:18781] critical: 	32  FrontBoardServices                  0x0000000120aa1470 __FBSSERIALQUEUE_IS_CALLING_OUT_TO_A_BLOCK__ + 24
+2018-05-02 21:05:06.801 HelloWorld.iOS[1282:18781] critical: 	33  FrontBoardServices                  0x0000000120aa112e -[FBSSerialQueue _performNext] + 439
+2018-05-02 21:05:06.802 HelloWorld.iOS[1282:18781] critical: 	34  FrontBoardServices                  0x0000000120aa168e -[FBSSerialQueue _performNextFromRunLoopSource] + 45
+2018-05-02 21:05:06.802 HelloWorld.iOS[1282:18781] critical: 	35  CoreFoundation                      0x000000011acadbb1 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 17
+2018-05-02 21:05:06.802 HelloWorld.iOS[1282:18781] critical: 	36  CoreFoundation                      0x000000011ac924af __CFRunLoopDoSources0 + 271
+2018-05-02 21:05:06.803 HelloWorld.iOS[1282:18781] critical: 	37  CoreFoundation                      0x000000011ac91a6f __CFRunLoopRun + 1263
+2018-05-02 21:05:06.803 HelloWorld.iOS[1282:18781] critical: 	38  CoreFoundation                      0x000000011ac9130b CFRunLoopRunSpecific + 635
+2018-05-02 21:05:06.804 HelloWorld.iOS[1282:18781] critical: 	39  GraphicsServices                    0x000000011e40fa73 GSEventRunModal + 62
+2018-05-02 21:05:06.804 HelloWorld.iOS[1282:18781] critical: 	40  UIKit                               0x000000010d32c0b7 UIApplicationMain + 159
+2018-05-02 21:05:06.805 HelloWorld.iOS[1282:18781] critical: 	41  ???                                 0x0000000137e6d153 0x0 + 5232841043
+2018-05-02 21:05:06.805 HelloWorld.iOS[1282:18781] critical: 	42  ???                                 0x0000000137e6cfb3 0x0 + 5232840627
+2018-05-02 21:05:06.805 HelloWorld.iOS[1282:18781] critical: 
+=================================================================
+Got a SIGABRT while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+

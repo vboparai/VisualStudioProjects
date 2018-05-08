@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{8EA71E14-EB35-4434-8847-287C589E59CC}|Default">
+  <MonoDevelop.Ide.ItemProperties.FacebookLogin PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BE53D1E3-0B7E-4B22-821C-128DF6A6F7C4">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.FacebookLogin>
+  <MonoDevelop.Ide.Workbench ActiveDocument="FacebookLogin/ViewController.cs">
+    <Files>
+      <File FileName="FacebookLogin/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="FacebookLogin/Main.storyboard" />
+      <File FileName="FacebookLogin/ViewController.cs" Line="49" Column="51" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
