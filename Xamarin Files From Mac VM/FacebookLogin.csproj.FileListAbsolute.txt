@@ -1,0 +1,13 @@
+/Users/v/Projects/FacebookLogin/FacebookLogin/bin/iPhoneSimulator/Debug/FacebookLogin.exe
+/Users/v/Projects/FacebookLogin/FacebookLogin/bin/iPhoneSimulator/Debug/FacebookLogin.pdb
+/Users/v/Projects/FacebookLogin/FacebookLogin/bin/iPhoneSimulator/Debug/Xamarin.Auth.dll
+/Users/v/Projects/FacebookLogin/FacebookLogin/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/v/Projects/FacebookLogin/FacebookLogin/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/actool/_PartialAppManifest.items
+/Users/v/Projects/FacebookLogin/FacebookLogin/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/actool/_BundleResourceWithLogicalName.items
+/Users/v/Projects/FacebookLogin/FacebookLogin/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/coremlc/_PartialAppManifest.items
+/Users/v/Projects/FacebookLogin/FacebookLogin/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/coremlc/_BundleResourceWithLogicalName.items
+/Users/v/Projects/FacebookLogin/FacebookLogin/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.3/optimized/
+/Users/v/Projects/FacebookLogin/FacebookLogin/obj/iPhoneSimulator/Debug/FacebookLogin.csprojResolveAssemblyReference.cache
+/Users/v/Projects/FacebookLogin/FacebookLogin/obj/iPhoneSimulator/Debug/FacebookLogin.csproj.CoreCompileInputs.cache
+/Users/v/Projects/FacebookLogin/FacebookLogin/obj/iPhoneSimulator/Debug/FacebookLogin.exe
+/Users/v/Projects/FacebookLogin/FacebookLogin/obj/iPhoneSimulator/Debug/FacebookLogin.pdb
